@@ -3,6 +3,9 @@
             [clj-time.core :as t])
   (:gen-class))
 
+;@todo:
+;https://github.com/tolitius/mount/issues/72
+
 (defn app [req]
   {:status  200
    :headers {"Content-Type" "text/html"}
